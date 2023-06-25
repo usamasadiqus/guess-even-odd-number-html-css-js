@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Guess Even Odd Number</title>
 
     <!-- Favicon -->
 
@@ -15,19 +15,33 @@
   </head>
   <body>
     <div class="card">
-      <h2>Top Class Card</h2>
+      <h2>Guess Even Odd Number</h2>
       <div class="content">
         <div class="input-group">
           <label for="input1">Input 1:</label>
-          <input type="text" id="input1" placeholder="Enter a value" />
+          <input
+            type="number"
+            id="input1"
+            min="0"
+            placeholder="Enter a value"
+          />
         </div>
         <div class="input-group">
           <label for="input2">Input 2:</label>
-          <input type="text" id="input2" placeholder="Enter a value" />
+          <input
+            type="number"
+            id="input2"
+            min="0"
+            placeholder="Enter a value"
+          />
         </div>
-        <button class="add-button">Add One</button>
-        <div class="result-element">Result: <span id="result">0</span></div>
+        <button class="add-button">Find</button>
+        <div class="result-element">Result: <span id="result"></span></div>
       </div>
     </div>
+
+    <!-- Custom JS -->
+
+    <script src="assets/js/app.js" type="module"></script>
   </body>
 </html>
