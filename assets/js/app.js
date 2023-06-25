@@ -22,9 +22,9 @@ function guessEvenOddNumber() {
 
     // Update the result element with the output message
     resultElement.textContent = output;
+  } else {
+    alert("Please enter values in both input fields.");
   }
-
-  alert("Please enter values in both input fields.");
 }
 
 // Add event listener to the add button
